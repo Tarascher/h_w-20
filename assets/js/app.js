@@ -1,4 +1,4 @@
-let size = +prompt(`введите число `);
+/*let size = +prompt(`введите число `);
 let n = size;
 
 let isFail = true;
@@ -20,4 +20,9 @@ for (let i = 2; i < n; i++) {
 }
 if (isFail) {
   alert(`Число ${n} простое крайнее число  делимое на 1 и  ${n}`);
+}*/
+let text = prompt(`введите текст`);
+
+for (let line = text; line.length < 10; line += text) {
+  alert(text);
 }
