@@ -8,11 +8,12 @@ for (let i = 2; i < n; i++) {
     alert(`0`);
     isTrue = false;
     break;
-  } /*else if (size >= 101) {
+  } else if (n % i == 0) {
+    /*else if (size >= 101) {
     alert(`число с не деепазона`);
     isTrue = false;
     break;
-  }*/ else if (n % i == 0) {
+  }*/
     alert(`ура число ${n} сложное`);
     isTrue = false;
     break;
